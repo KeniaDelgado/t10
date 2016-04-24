@@ -1,0 +1,65 @@
+body{
+  font-family: helvetica;
+background-color: beige;
+    
+}
+#box{
+    width: 650px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+table {
+    text-align: center;
+    width: 420px;
+}
+table th {
+    background-color: beige;
+}
+table tr td{
+    background-color: white;
+}
+table tfoot td{
+    background-color: beige;
+}
+
+
+#left{
+  font-size: 18px;
+  color: white;
+  width: 170px;
+  padding: 30px;
+  background-color: lightsalmon;
+  float: left;  
+}
+
+#right{
+    float: right;
+}
+
+.eliminar{
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    width: 20px;
+}
+#agregar{
+    padding: 5px;
+    display: block;
+    text-align: center;
+    background-color: lightslategrey;
+    color: antiquewhite;
+    width: 0 auto;
+     transition: .8s linear;
+}
+
+#agregar:hover{
+  background-color: #887773;
+  color: white;
+}
+
+
+input{
+    text-align: center;
+    height: 19px;
+}
